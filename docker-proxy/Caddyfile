@@ -1,0 +1,23 @@
+http://amplisens.loc {
+    reverse_proxy host.docker.internal:8087
+}
+
+http://cmd-online.loc {
+    reverse_proxy host.docker.internal:8088
+}
+
+http://terminal.cmd-online.loc {
+    reverse_proxy host.docker.internal:8088
+}
+
+http://amrnet.crie.loc {
+    reverse_proxy host.docker.internal:8089
+}
+
+http://clinical-trials.crie.loc {
+    reverse_proxy host.docker.internal:8090
+}
+
+http://crie.loc {
+    reverse_proxy host.docker.internal:8090
+}
